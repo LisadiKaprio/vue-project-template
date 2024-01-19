@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    // typescript options here
+    "target": "esnext",
+    "jsx": "preserve",
+    "importHelpers": true,
+    "module": "es2022",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "types": [
+      "vite/client"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "src/**/*.d.ts",
+    "tests/**/*.tsx",
+    "index.d.ts"
+  ],
+}
